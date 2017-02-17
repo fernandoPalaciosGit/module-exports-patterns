@@ -1,7 +1,7 @@
-var Model;
+var model;
 
 /* modulo 100% public */
-Model = Backbone.Model.extends({
+model = Backbone.Model.extends({
     defaults: {},
 
     init: function () {
@@ -9,4 +9,4 @@ Model = Backbone.Model.extends({
     }
 });
 
-module.exports = Model;
+module.exports = model;

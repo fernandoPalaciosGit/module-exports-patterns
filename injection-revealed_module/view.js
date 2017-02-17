@@ -4,12 +4,12 @@
  * concepto de vistas agnosticas (el modelo recupera el estado del widgtet sin que la vista se involucre).
  */
 
-var View;
+var view;
 
-View = function (model) {
+view = function (model) {
     /* PRIVATE */
     var _test = function () {
-        model.attributes;
+        return model.attributes;
         // forzar a NO usar funciones publicas en privadas
     };
 
@@ -25,4 +25,4 @@ View = function (model) {
     });
 };
 
-module.exports = View;
+module.exports = view;
